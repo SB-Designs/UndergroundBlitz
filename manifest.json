@@ -1,0 +1,36 @@
+{
+  "name": "Underground Blitz",
+  "short_name": "Underground Blitz",
+  "description": "Underground Blitz - Find the next station!",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "512x512",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/2889891f-7e0c-43a7-a4e1-e694a88e0d1b/logo.png?v=1722018117351",
+      "purpose": "any"
+    },
+    {
+      "sizes": "192x192",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/2889891f-7e0c-43a7-a4e1-e694a88e0d1b/logo.png?v=1722018117351",
+      "purpose": "any"
+    },
+    {
+      "sizes": "180x180",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/2889891f-7e0c-43a7-a4e1-e694a88e0d1b/logo.png?v=1722018117351",
+      "purpose": "any"
+    },
+    {
+      "sizes": "120x120",
+      "type": "image/png",
+      "src": "https://cdn.glitch.global/2889891f-7e0c-43a7-a4e1-e694a88e0d1b/logo.png?v=1722018117351",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00109f"
+}
