@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  overflow-x: hidden;  /* Prevent horizontal scrolling */
 }
 
 /* Centered square container */
@@ -27,6 +28,9 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  overflow-y: auto;  /* Allow vertical scrolling if content overflows */
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Station and countdown container */
@@ -85,6 +89,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  box-sizing: border-box;
 }
 
 /* Popup Styles */
@@ -122,4 +127,41 @@ footer {
 
 .popup .close:hover {
   color: #0078D7;
+}
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0078D7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #005BB5;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  #stationDisplay, #countdownDisplay, #timeUpMessage {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
 }
