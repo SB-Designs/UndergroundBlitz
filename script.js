@@ -297,6 +297,7 @@ document.getElementById("generateButton").addEventListener("click", () => {
   document.getElementById("timeUpMessage").textContent = "";
 });
 
+// Handle "Info" popup
 document.getElementById("infoButton").addEventListener("click", () => {
   document.getElementById("infoPopup").style.display = "flex";
 });
@@ -305,8 +306,9 @@ document.querySelector(".close").addEventListener("click", () => {
   document.getElementById("infoPopup").style.display = "none";
 });
 
-window.onclick = function (event) {
-  if (event.target == document.getElementById("infoPopup")) {
-    document.getElementById("infoPopup").style.display = "none";
+window.addEventListener("click", (event) => {
+  const popup = document.getElementById("infoPopup");
+  if (event.target === popup) {
+    popup.style.display = "none";
   }
-};
+});
