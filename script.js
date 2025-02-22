@@ -312,3 +312,5 @@ window.addEventListener("click", (event) => {
     popup.style.display = "none";
   }
 });
+
+document.getElementById("copyright-year").textContent = new Date().getFullYear();

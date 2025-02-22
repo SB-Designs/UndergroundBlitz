@@ -56,7 +56,7 @@ body {
 
 /* Button styles */
 button {
-  background-color: #0078D7;
+  background-color: #8c52ff;
   color: white;
   border: none;
   border-radius: 8px;
@@ -69,7 +69,7 @@ button {
 }
 
 button:hover {
-  background-color: #005BB5;
+  background-color: #5723c0;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -82,7 +82,7 @@ button:active {
 /* Footer styling */
 footer {
   text-align: center;
-  background-color: #0078D7;
+  background-color: #8c52ff;
   color: white;
   padding: 15px;
   font-size: 14px;
@@ -126,7 +126,7 @@ footer {
 }
 
 .popup .close:hover {
-  color: #0078D7;
+  color: #8c52ff;
 }
 
 /* Custom scrollbar styles */
@@ -135,7 +135,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #0078D7;
+  background-color: #8c52ff;
   border-radius: 10px;
 }
 
